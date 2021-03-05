@@ -24,7 +24,36 @@ const customers = [
         "phone": null,
         "preferred_locales": [],
         "shipping": null,
-        "tax_exempt": "none"
+        "tax_exempt": "none",
+        "tax_ids":""
+    },
+    {
+        "id": "cus_J2PYVowtw5R1fJ",
+        "object": "customer",
+        "address": null,
+        "balance": 0,
+        "created": 1614639651,
+        "currency": null,
+        "default_source": null,
+        "delinquent": false,
+        "description": null,
+        "discount": null,
+        "email": "customer@example.com",
+        "invoice_prefix": "5F7599C2",
+        "invoice_settings": {
+            "custom_fields": null,
+            "default_payment_method": null,
+            "footer": null
+        },
+        "livemode": false,
+        "metadata": {},
+        "name": null,
+        "next_invoice_sequence": 1,
+        "phone": null,
+        "preferred_locales": [],
+        "shipping": null,
+        "tax_exempt": "none",
+        "tax_ids":""
     }
 ]
 

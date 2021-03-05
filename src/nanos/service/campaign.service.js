@@ -19,11 +19,12 @@ class CampaignService {
         if (!campaign[0]) {
             return null
         }
-        const transaction = Stripe.transaction.filter((transaction) => transaction.id === campaign[0].stripe_charge_id);
-        return {
-            ...campaign[0],
-            transaction: transaction
-        }
+        return  campaign[0]
+        // const transaction = Stripe.transaction.filter((transaction) => transaction.id === campaign[0].stripe_charge_id);
+        // return {
+        //     ...campaign[0],
+        //     transaction: transaction
+        // }
 
 
     }

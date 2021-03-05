@@ -19,6 +19,7 @@
     "helmet": "^4.4.1",
     "mongoose": "^5.11.18",
     "morgan": "^1.10.0",
+    "request": "^2.88.2",
     "stripe": "^8.137.0"
   },
   "devDependencies": {
